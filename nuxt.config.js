@@ -11,7 +11,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
   },
   modules: [
     '@nuxtjs/axios',
@@ -19,6 +19,9 @@ module.exports = {
   buildModules: [
     '@nuxtjs/vuetify',
 
+  ],
+  plugins: [
+    { src: '~plugins/iamport.js', ssr: false, injectAs: 'IMP' },
   ],
   /*
   ** Customize the progress bar color

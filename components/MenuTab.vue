@@ -23,6 +23,9 @@ export default {
       tabs: [
         { name: 'home', icon: 'mdi-house', path: '/' },
         { name: 'shopping', icon: 'mdi-shop', path: '/shopping' },
+        { name: 'band', icon: 'mdi-shop', path: '/band' },
+        { name: 'bandpic', icon: 'mdi-shop', path: '/bandpic' },
+        { name: 'pay', icon: 'mdi-shop', path: '/pay' },
       ]
     }
   },

@@ -4,7 +4,7 @@
       <v-col cols="12" md="3" style="background: green;">
         <menu-tab></menu-tab>
       </v-col>
-      <v-col cols="12" md="9" style="background: blue;">
+      <v-col cols="12" md="9" style="background: white;">
         <nuxt/>
       </v-col>
     </v-row>

@@ -44,7 +44,7 @@
 import axios from 'axios'
 import AppLogo from '~/components/AppLogo.vue'
 
-const URL_GETPOSTS = 'http://192.168.90.21:9919/band'
+const URL_GETPOSTS = 'http://54.180.80.188:9919/band'
 export default {
   components: {
     AppLogo

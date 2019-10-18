@@ -8,7 +8,7 @@
 # install dependencies
 $ npm install # Or yarn install
 
-# serve with hot reload at 192.168.90.21:3000
+# serve with hot reload at 54.180.80.188:4000
 $ npm run dev
 
 # build for production and launch server

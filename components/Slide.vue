@@ -36,7 +36,7 @@ import axios from 'axios'
     methods: {
       get() {
         console.log("@@@")
-        const URL_GETPICSS = 'http://192.168.90.21:9919/bandpic'
+        const URL_GETPICSS = 'http://54.180.80.188:9919/bandpic'
         axios.get(URL_GETPICSS).then((result) => {
           this.banners = Object.values(result.data);
           for(let i = 0; i < this.banners.length; i++){

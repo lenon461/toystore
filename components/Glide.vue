@@ -70,7 +70,7 @@ import axios from 'axios'
     methods: {
       get() {
           console.log(this.banners)
-        const URL_GETPICSS = 'http://192.168.90.21:9919/bandpic'
+        const URL_GETPICSS = 'http://54.180.80.188:9919/bandpic'
         this.banners = [];
         axios.get(URL_GETPICSS).then((result) => {
           this.banners = Object.values(result.data);
